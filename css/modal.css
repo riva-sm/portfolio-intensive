@@ -82,5 +82,75 @@
   text-align: center;
   padding: 16px 60px;
   background-color: #e87c40;
-  border-radius: 4 px;
+  border-radius: 4px;
+}
+
+@media (min-width: 480px) {
+  .modal {
+    min-width: 430px;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal {
+    min-width: 760px;
+    padding: 85px 70px 82px 85px;
+  }
+  .modal__title {
+    font-size: 18px;
+    margin: 0 auto 50px;
+    max-width: 490px;
+  }
+  .callback__label-text {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    font-size: 16px;
+  }
+  .callback__input {
+    border: 1px solid #afafaf;
+    border-radius: 12px;
+    height: 99px;
+    padding: 0 16px;
+    font-size: 16px;
+  }
+  .callback__group:not(:last-child) {
+    margin-bottom: 50px;
+  }
+  .connect__title {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .connect__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .callback__btn {
+    padding: 24px 82px;
+    margin: 0;
+    margin-left: auto;
+  }
+  .modal__close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+  .callback__group.connect {
+    margin-bottom: 28px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .modal {
+    padding: 70px 99px 82px 131px;
+  }
+  .modal__title {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .connect__title {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
 }
